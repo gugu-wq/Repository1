@@ -13,7 +13,7 @@ class CharacterCell: UITableViewCell {
     @IBOutlet weak var characterTitleLabel: UILabel!
     
     func setCharacter(character: Character) {
-        characterImageView.image = character.image
+        characterImageView.image = character.img
         characterTitleLabel.text = character.title
     }
 }

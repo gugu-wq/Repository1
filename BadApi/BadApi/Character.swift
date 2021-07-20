@@ -10,11 +10,11 @@ import UIKit
 
 class Character {
     
-    var image: UIImage
+    var img: UIImage
     var title: String
     
     init(image: UIImage, title: String) {
-        self.image = image
+        self.img = image
         self.title = title
     }
 }
